@@ -2,13 +2,13 @@ import { routePage } from "./app-route.js";
 
 const firebaseInit = async () => {
     let firebaseConfig = {
-        apiKey: "AIzaSyBGBGg9ABq5-v3CuinK7Dv3f7U7pynvvvY",
-        authDomain: "co2-reductor.firebaseapp.com",
+        apiKey: "AIzaSyBWNhnRwNpmr845sDbwUZSj_R_5Otn2dSQ",
+        authDomain: "mahrus-956f2.firebaseapp.com",
         projectId: "co2-reductor",
-        storageBucket: "co2-reductor.appspot.com",
-        messagingSenderId: "890373173619",
-        appId: "1:890373173619:web:05dde8763af3a834255506",
-        measurementId: "G-17Z4NMW223",
+        storageBucket: "mahrus-956f2.appspot.com",
+        messagingSenderId: "851924795824",
+        appId: "1:851924795824:web:811ea12b8c4a0202f59675",
+        measurementId: "G-NBT7J857DN",
     };
     await firebase.initializeApp(firebaseConfig);
     await firebase.analytics();
